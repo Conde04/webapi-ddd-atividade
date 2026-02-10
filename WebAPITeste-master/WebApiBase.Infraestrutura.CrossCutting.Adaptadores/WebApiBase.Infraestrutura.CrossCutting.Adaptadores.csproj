@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="16.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApiBase.Aplicacao.DTO\WebApiBase.Aplicacao.DTO.csproj" />
+    <ProjectReference Include="..\WebApiBase.Dominio\WebApiBase.Dominio.csproj" />
+    <ProjectReference Include="..\WebApiBase.Infraestrutura.Nucleo\WebApiBase.Infraestrutura.Nucleo.csproj" />
+  </ItemGroup>
+
+</Project>

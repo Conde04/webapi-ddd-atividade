@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/1. Apresentacao/">
+    <Project Path="WebApiBase.csproj" />
+  </Folder>
+  <Folder Name="/2. Aplicacao/">
+    <Project Path="../WebApiBase.Aplicacao.DTO/WebApiBase.Aplicacao.DTO.csproj" />
+    <Project Path="../WebApiBase.Aplicacao.Nucleo/WebApiBase.Aplicacao.Nucleo.csproj" />
+    <Project Path="../WebApiBase.Aplicacao/WebApiBase.Aplicacao.csproj" />
+  </Folder>
+  <Folder Name="/3. Dominio/">
+    <Project Path="../WebApiBase.Dominio.Nucleo/WebApiBase.Dominio.Nucleo.csproj" />
+    <Project Path="../WebApiBase.Dominio.Servicos/WebApiBase.Dominio.Servicos.csproj" />
+    <Project Path="../WebApiBase.Dominio/WebApiBase.Dominio.csproj" />
+  </Folder>
+  <Folder Name="/4. Infraestrutura/" />
+  <Folder Name="/4. Infraestrutura/1. Data/">
+    <Project Path="../WebApiBase.Infraestrutura.Data/WebApiBase.Infraestrutura.Data.csproj" Id="fe9bf7f6-28a4-4b19-88e3-173e0c74a371" />
+    <Project Path="../WebApiBase.Infraestrutura.Repositorios/WebApiBase.Infraestrutura.Repositorios.csproj" Id="837064e7-687b-4c8c-a10e-66a26e56d87e" />
+  </Folder>
+  <Folder Name="/4. Infraestrutura/2. CrossCutting/">
+    <Project Path="../WebApiBase.Infraestrutura.CrossCutting.Adaptadores/WebApiBase.Infraestrutura.CrossCutting.Adaptadores.csproj" />
+    <Project Path="../WebApiBase.Infraestrutura.CrossCutting.Enumeradores/WebApiBase.Infraestrutura.CrossCutting.Enumeradores.csproj" Id="845e907e-2ab5-4b87-b556-d4126d1e51a1" />
+    <Project Path="../WebApiBase.Infraestrutura.CrossCutting.IoC/WebApiBase.Infraestrutura.CrossCutting.IoC.csproj" Id="2c5c7e32-c136-489c-86c3-e242fd2e9fff" />
+    <Project Path="../WebApiBase.Infraestrutura.Nucleo/WebApiBase.Infraestrutura.Nucleo.csproj" />
+  </Folder>
+</Solution>

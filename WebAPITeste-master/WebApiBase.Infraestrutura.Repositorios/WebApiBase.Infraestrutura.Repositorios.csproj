@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApiBase.Dominio.Nucleo\WebApiBase.Dominio.Nucleo.csproj" />
+    <ProjectReference Include="..\WebApiBase.Dominio\WebApiBase.Dominio.csproj" />
+    <ProjectReference Include="..\WebApiBase.Infraestrutura.Data\WebApiBase.Infraestrutura.Data.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApiBase.Aplicacao.Nucleo\WebApiBase.Aplicacao.Nucleo.csproj" />
+    <ProjectReference Include="..\WebApiBase.Aplicacao\WebApiBase.Aplicacao.csproj" />
+    <ProjectReference Include="..\WebApiBase.Dominio.Nucleo\WebApiBase.Dominio.Nucleo.csproj" />
+    <ProjectReference Include="..\WebApiBase.Dominio.Servicos\WebApiBase.Dominio.Servicos.csproj" />
+    <ProjectReference Include="..\WebApiBase.Infraestrutura.CrossCutting.Adaptadores\WebApiBase.Infraestrutura.CrossCutting.Adaptadores.csproj" />
+    <ProjectReference Include="..\WebApiBase.Infraestrutura.Repositorios\WebApiBase.Infraestrutura.Repositorios.csproj" />
+  </ItemGroup>
+
+</Project>
